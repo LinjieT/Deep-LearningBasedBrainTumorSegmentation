@@ -122,4 +122,4 @@ def test(in_files_dic='data/imgs/*.png',OutDic='data/result/',GTDic='data/masks/
   print('mIoU is: ',mIoU)
   #print('nmIoU is: ',nmIoU)
 
-  test(in_files_dic='BraTS/test/T1New/*.png',OutDic='BraTSNewOut/benchmark/',GTDic='BraTS/test/Mask/',GTSuffix='_mask',ModelPath='BraTSBenchmark/checkpoint_epoch10.pth')
+test(in_files_dic='BraTS/test/T1New/*.png',OutDic='BraTSNewOut/benchmark/',GTDic='BraTS/test/Mask/',GTSuffix='_mask',ModelPath='BraTSBenchmark/checkpoint_epoch10.pth')
